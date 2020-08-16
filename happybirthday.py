@@ -1,0 +1,6 @@
+import pyautogui
+script = "When the crowd wants more I bring on the thunder 'Cause you got my back And I'm not going under You're my point, you're my guard You're the perfect chord And I see our names together on every billboard We're headed for the top We got it on lock We'll make 'em say, Hey! 'Cause there's no stopping us when we hit The same but different We're never gonna quit And we'll keep rocking There's no way I can make it without you Be here without you With you, it's like whoa I, own this dream There's no way I can make it without you Be here without you And I'm bringing the fire And it's taking us higher And we're blowin' it up 'Cause they can't get enough We got it on lock 'Cause there's no stopping us when we hit Were never gonna quit There's no way I can make it without you Be here without you With you, it's like whoa I, own this dream There's no way I can make it without you Be here without you I keep on rockin' with you (Oh! Oh! Oh!) (Yeah! Yeah! Yeah!) Ke-keep on rockin' There's no way I can make it without you Be here without you With you, it's like whoa I, own this dream There's no way I can make it without you Be here without you Be here without you Be here without you - out you - out you" 
+for x in script.split():
+    pyautogui.write(x)
+
+    pyautogui.press("enter")
